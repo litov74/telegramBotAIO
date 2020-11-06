@@ -1,0 +1,20 @@
+from aiogram.types import InlineKeyboardButton, InlineKeyboardMarkup
+from strings import disagreementBeginningText
+dis = InlineKeyboardMarkup(row_width=2)
+
+d1 = InlineKeyboardButton(text=" ⬅ ", callback_data="backward:0")
+d2 = InlineKeyboardButton(text="Начало", callback_data="beginning:0")
+d3 = InlineKeyboardButton(text="Шаг 1", callback_data="step:1")
+d4 = InlineKeyboardButton(text="Шаг 2", callback_data="step:2")
+d5 = InlineKeyboardButton(text="Шаг 3", callback_data="step:3")
+d6 = InlineKeyboardButton(text="Шаг 4", callback_data="step:4")
+d7 = InlineKeyboardButton(text="Шаг 5", callback_data="step:5")
+d8 = InlineKeyboardButton(text="Дополнительные материалы", callback_data="step:6")
+dis.insert(d2)
+dis.insert(d3)
+dis.insert(d4)
+dis.insert(d5)
+dis.insert(d6)
+dis.insert(d7)
+dis.insert(d8)
+dis.insert(d1)

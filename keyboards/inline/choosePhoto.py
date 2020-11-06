@@ -1,0 +1,20 @@
+from aiogram.types import InlineKeyboardButton, InlineKeyboardMarkup
+from strings import backKey, currentLang, beautyCat, foodCat, healthCat, houseCat, shampooCat, soapsCat, teasCat
+photos = InlineKeyboardMarkup(row_width=2)
+
+c1 = InlineKeyboardButton(text=beautyCat[currentLang], callback_data="cat:beauty")
+photos.insert(c1)
+c2 = InlineKeyboardButton(text=foodCat[currentLang], callback_data="cat:food")
+photos.insert(c2)
+c3 = InlineKeyboardButton(text=healthCat[currentLang], callback_data="cat:health")
+photos.insert(c3)
+c4 = InlineKeyboardButton(text=houseCat[currentLang], callback_data="cat:house")
+photos.insert(c4)
+c5 = InlineKeyboardButton(text=shampooCat[currentLang], callback_data="cat:shampoo")
+photos.insert(c5)
+c6 = InlineKeyboardButton(text=soapsCat[currentLang], callback_data="cat:soaps")
+photos.insert(c6)
+c7 = InlineKeyboardButton(text=teasCat[currentLang], callback_data="cat:teas")
+photos.insert(c7)
+c8 = InlineKeyboardButton(text=backKey[currentLang], callback_data="clients:main")
+photos.insert(c8)
