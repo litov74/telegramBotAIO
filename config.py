@@ -1,7 +1,7 @@
-BOT_TOKEN   = "1318075208:AAGnMkVUdiWNfA0RYGua2ETVJXD4ji9c5ug"  # Your token
-ADMIN_ID    = "598522198"
-ACCOUNT_ID  = "ludimira26@gmail.com"
-ACCOUNT_PWD = "ludimira2020"
+BOT_TOKEN   = ""  # Your token
+ADMIN_ID    = ""
+ACCOUNT_ID  = ""
+ACCOUNT_PWD = ""
 
 '''
 
