@@ -3,10 +3,11 @@ from strings import bestChoiceBtn, contractActivationBtn, howToStartBtn, setting
 mainKeyboard = ReplyKeyboardMarkup(
     keyboard=[
         [
-            KeyboardButton(text=bestChoiceBtn[currentLang]), KeyboardButton(text=contractActivationBtn[currentLang])
+            KeyboardButton(text=bestChoiceBtn[currentLang]), 
         ],
         [
-            KeyboardButton(text=howToStartBtn[currentLang])
+            KeyboardButton(text=contractActivationBtn[currentLang]),
         ],
+        
 
 ], resize_keyboard=True)
