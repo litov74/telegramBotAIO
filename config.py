@@ -1,4 +1,4 @@
-BOT_TOKEN   = "1318075208:AAGnMkVUdiWNfA0RYGua2ETVJXD4ji9c5ug"  # Your token
+BOT_TOKEN   = "xxxx:xxxxxxxxx"  # Your token
 ADMIN_ID    = ""
 ACCOUNT_ID  = ""
 ACCOUNT_PWD = ""
